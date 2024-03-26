@@ -5,7 +5,8 @@ class Solution(object):
         """
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        if n == 0 :return
+        if n == 0 :
+            return
         len1 = len(nums1)
         last_ind = len1-1
         while n > 0 and m > 0 :
